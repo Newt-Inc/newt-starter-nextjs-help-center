@@ -86,7 +86,7 @@ export default async function Page({ params }: Props) {
           <Pagination
             total={total}
             current={page}
-            basePath={`categories/${category.slug}`}
+            basePath={`/categories/${category.slug}`}
           />
         </div>
       </div>
